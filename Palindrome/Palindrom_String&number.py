@@ -1,5 +1,5 @@
 
-#### pallindrome string
+#### palindrome of a string
 
       string = input(("Enter a string: \n"))
       if(string == string[::-1]): 
