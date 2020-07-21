@@ -16,3 +16,21 @@ for i in range(number):
 - This is the logic behind the solution, where first fact variable is initialised from 1, and the value the value of fact is calculated as fact * i, till the loop runs.
 
 - Finally the value of fact is returned and the value is printed on the screen.
+
+----
+In the Recursive Method, Recursion of function is used in which functions call themselves until the condition is satisfied.
+
+- A function that calls itself during its execution is a reursive function.
+- This enables the function to call itself several times and at the end if each iteration a result is ouputted.
+
+
+def fact_recursion(n):
+
+
+    if n == 1:
+        return 1
+    else:
+        return n * fact_recursion(n-1)
+
+- This is the code that shows how recursion can be used to calculate the factorial of a number.
+- The program calls itself until the number is one and the value of the factorial is returned.
