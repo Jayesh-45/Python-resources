@@ -2,10 +2,13 @@
 
 # Entering 0 prints the rows in increasing order of *'s.
 # Entering 1 prints the rows inn decreasing order of *'s.
-# First you enter the number of rows you want to print.
-# Then you select the pattern
 
+
+
+# First you enter the number of rows you want to print.
 num = int(input("Enter the num of rows you want to print..\n"))
+
+# Then you select the pattern
 x = int(input("Enter pattern 0/1..\n"))
 
 if x == 0:
