@@ -12,3 +12,8 @@
                break
        else:
            print(num, end="   ")
+
+
+The principle behind this program is that the number is checked for the expression :- (num % i) == 0, and if that it is false, then that number becomes a **prime number** and is printed on the screen.
+
+This loop has the control till the last value of the range is checked for the condition, and every prime number is displayed on the screen.
