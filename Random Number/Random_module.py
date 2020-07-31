@@ -11,3 +11,8 @@ print(var1)
 
 var2 = random.randrange(3,30, 3)
 print(var2)
+
+# This is a function that prints a random number within the range 0-1, and the number is multiplied by 100 that makes the decimal point shift two spaces to the right.
+
+var3 = random.random() * 100
+print(var3)
