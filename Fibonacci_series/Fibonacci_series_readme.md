@@ -1,4 +1,4 @@
-> ## This is the Readme File for teh Fibonacci series.
+> ## This is the Readme File for the Fibonacci series.
 
 ### [0 1 1 2 3 5 8 13 21] This is the fibonacci series.
 
