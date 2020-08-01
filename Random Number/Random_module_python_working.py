@@ -16,3 +16,8 @@ print(var2)
 
 var3 = random.random() * 100
 print(var3)
+
+# This is a Function that prints a random list element from a given list.
+var4 = ["Red", "Blue", "Green", "Yellow", "Black", "White"]
+choice = random.choice(var4)
+print(choice)
