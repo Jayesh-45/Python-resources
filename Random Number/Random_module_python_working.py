@@ -21,3 +21,9 @@ print(var3)
 var4 = ["Red", "Blue", "Green", "Yellow", "Black", "White"]
 choice = random.choice(var4)
 print(choice)
+
+
+# This is a Function that shuffles a given list.
+var5 = [2, 5, 8, 9, 12]
+random.shuffle(var5)
+print ("Printing shuffled list ", var5)
