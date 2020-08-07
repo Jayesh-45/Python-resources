@@ -35,3 +35,16 @@ while no_of_chance < chances:
         print(f"Your input was {_input} and the Computers choice was {_random}. ")
         print("Comp wins 1 point..")
         print(f"Your points are {your_points} and the Computer's points are {comp_points}. ")
+        
+    # When user inputs W.
+    elif _input == "w" and _random == "s":
+        comp_points = comp_points + 1
+        print(f"Your input was {_input} and the Computers choice was {_random}. ")
+        print("Comp wins 1 point..")
+        print(f"Your points are {your_points} and the Computer's points are {comp_points}. ")
+
+    elif _input == "w" and _random == "g":
+        your_points = your_points + 1
+        print(f"Your input was {_input} and the Computers choice was {_random}. ")
+        print("You win 1 point..")
+        print(f"Your points are {your_points} and the Computer's points are {comp_points}. ")
