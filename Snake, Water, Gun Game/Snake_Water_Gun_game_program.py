@@ -62,3 +62,20 @@ while no_of_chance < chances:
         print("Comp wins 1 point..")
         print(f"Your points are {your_points} and the Computer's points are {comp_points}. ")
 
+    else:
+        print("The input is Wrong.")
+
+    no_of_chance = no_of_chance+1
+    print(f"{chances - no_of_chance} are left out of {chances} \n")
+
+    print("The Game is Over Now..")
+
+if comp_points == your_points:
+    print("Its a Tie.")
+
+elif comp_points > your_points:
+    print("The Computer has Won and you lost.")
+else:
+    print("You Won and Computer Lost.")
+
+print(f"You have {your_points} points and the Computer has {comp_points} points.")
