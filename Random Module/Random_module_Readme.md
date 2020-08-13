@@ -25,9 +25,11 @@
 
 ----
 
-The next function is to generate a random number within the range 0-1.
-random.random() 
-This is the syntax for it.
-Then I have multiplied the nnumber by 100 that makes the decimal point shift two spaces to the right.
-var3 = random.random() * 100
-The next statement prints the random number.
+1.] The next function is to generate a random number within the range 0-1.
+		
+		random.random() 
+		
+2. This is the syntax for it.
+3. Then I have multiplied the nnumber by 100 that makes the decimal point shift two spaces to the right.
+4. var3 = random.random() * 100
+5. The next statement prints the random number.
