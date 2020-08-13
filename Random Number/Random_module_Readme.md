@@ -22,3 +22,5 @@
 4. Like this range(3,30,3) will be like this, 3,6,9,12,15,18,21,24,27,30.
 5. Now this function will select any random integer in this range 3,6,9,12,15,18,21,24,27,30.
 6. The next statement prints the random number.
+
+----
