@@ -24,3 +24,10 @@
 6. The next statement prints the random number.
 
 ----
+
+The next function is to generate a random number within the range 0-1.
+random.random() 
+This is the syntax for it.
+Then I have multiplied the nnumber by 100 that makes the decimal point shift two spaces to the right.
+var3 = random.random() * 100
+The next statement prints the random number.
