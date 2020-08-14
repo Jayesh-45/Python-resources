@@ -33,3 +33,19 @@
 3. Then I have multiplied the nnumber by 100 that makes the decimal point shift two spaces to the right.
 4. var3 = random.random() * 100
 5. The next statement prints the random number.
+
+----
+
+1.] The next Function selects a random list element from a given list and prints it.
+
+2. First we have to create a list.
+		
+		list_name = ["List_element_1", "List_element_2", "List_element_3",...]
+
+		random.choice(list_name)
+3. This is the function syntax.
+
+		var_name = random.choice(list_name)
+		print(var_name)
+4. This prints the random list element.
+5. This is the syntax for doing so.
