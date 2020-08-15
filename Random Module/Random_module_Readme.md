@@ -37,7 +37,6 @@
 ----
 
 1.] The next Function selects a random list element from a given list and prints it.
-
 2. First we have to create a list.
 		
 		list_name = ["List_element_1", "List_element_2", "List_element_3",...]
@@ -49,3 +48,16 @@
 		print(var_name)
 4. This prints the random list element.
 5. This is the syntax for doing so.
+
+----
+
+1.] The next Function shuffles a given list.
+2. First we have to create a list.
+
+		list_name = ["List_element_1", "List_element_2", "List_element_3",...]
+
+		random.shuffle(List_name)
+3. This is the syntax for shuffling the list.
+
+		print ("Printing shuffled list ", List_name)
+4. This is the syntax for printing the list.
