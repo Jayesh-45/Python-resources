@@ -1,10 +1,11 @@
 > ## This is the Readme file for the Random module working in Python.
 
+----
 - This is a program that teaches most of the Python random module.
 - First we have to import the random module in our file to be able to use all the inbuilt module functions.
 - We do this by **"import random"**.
 - Now we can use all the functions inside it.
-
+----
 1.] The first function is a function that generates any random interval in the inputed range.
 
 	   random.randint(initial value, limit value)
