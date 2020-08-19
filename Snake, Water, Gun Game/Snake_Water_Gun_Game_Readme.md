@@ -20,3 +20,46 @@ the Gun kills the Snake. //Bad logic.
 
 3. If the Player inputs Water and the other one inputs Gun,
 the Water wins as the Gun gets lost in the Water. //Bad logic. 
+
+
+## The Code::
+
+First we import the "random module" and create a list for the options of snake, water and gun.
+	
+    list = ['s', 'w', 'g']# This is the list.
+
+Then we initialize some variables for the chances, noofchances taken, and points for computer and you.
+- We initialize the value of chances = 10.
+- And rest all values are 0.
+
+The Game will start from the while loop, that runs untill the chances become greater than the noofchances.
+- Then We input the choice of the user .
+	
+       _input = input('Snake, Water or Gun:\n')
+
+Then we select the random choice of the computer from the list.
+
+		_random = random.choice(list)
+
+When the choices of both The User and The Computer are same, it's a Tie.
+- Noone gets any point in that case.
+
+		    if _input == _random:
+   		      print("Its a Tie. 0 points to each..")
+            
+#### If the inputs are not the same.
+
+1]. The First Case: # When user inputs S(Snake).
+
+When the User inputs S(Snake) and Computer selects W(Water), you get one point.
+
+		your_points = your_points + 1
+
+- Then with the help of "fstrings", we print The inputs of both, the user and the Computer.
+
+		print(f"Your input was {_input} and the Computers choice was {_random}. ")
+
+- Also, the scores are shown after the points are allotted.
+
+		print(f"Your points are {your_points} and the Computer's points are {comp_points}. ")
+            
