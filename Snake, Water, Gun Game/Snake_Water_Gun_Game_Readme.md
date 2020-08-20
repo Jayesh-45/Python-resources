@@ -49,6 +49,7 @@ When the choices of both The User and The Computer are same, it's a Tie.
             
 #### If the inputs are not the same.
 
+----
 1]. The First Case: # When user inputs S(Snake).
 
 When the User inputs S(Snake) and Computer selects W(Water), you get one point.
@@ -63,3 +64,44 @@ When the User inputs S(Snake) and Computer selects W(Water), you get one point.
 
 		print(f"Your points are {your_points} and the Computer's points are {comp_points}. ")
             
+When the User inputs S(Snake) and Computer selects G(Gun), The Computer gets one point.
+
+		comp_points = comp_points + 1
+
+Then with the help of "fstrings", the inputs of both, the user and the Computer are again printed.
+
+		print(f"Your input was {_input} and the Computers choice was {_random}. ")
+
+Also, the scores are again showed after the points are allotted.
+
+----
+Similarly the Program is written to abide by the rules of the game which includes both the scenarios.
+
+- When the user enters Water(W), and the computer selects one of the remaining two choices of Snake(S) or Gun(G).
+- Similarly for the situation where the user enters Gun(G).
+
+After every chance, the program increments the value of noofchance by 1.
+
+And after all the 10 chances are completed, that will take the value of noofchance till 10,
+after which the game stopps.
+
+		no_of_chance = no_of_chance+1
+		print(f"{chances - no_of_chance} are left out of {chances} \n")
+
+Also, the remaining chances are printed with the help of fstrings.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
