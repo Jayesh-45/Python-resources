@@ -90,6 +90,15 @@ after which the game stopps.
 
 Also, the remaining chances are printed with the help of fstrings.
 
+----
+- After All the chances are completed, "The Game is over Now.." is printed.
+- If the No of Points scored by You are **equal** to the No of Points scored by the Computer, **then it's a tie**.
+
+- If You scored more points then the Computer declares you the **Winner** and if The Computer scores more points than You, then You have **lost**.
+
+- At the end, the No of Points scored by both the players will be printed.
+
+> For Better experience, this game should be played at the Python terminal. 
 
 
 
