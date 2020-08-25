@@ -7,7 +7,7 @@ sum = 0
 temporaryVariable = number
 
 while temporaryVariable > 0:
-    digit = temp % 10
+    digit = temporaryVariable % 10
     sum = sum +  digit * digit * digit
     temporaryVariable = temporaryVariable// 10
 
