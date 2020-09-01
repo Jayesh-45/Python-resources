@@ -7,7 +7,7 @@
 
 # First we input a decimal number.
 
-dec = int(input("Enter a Decimal Number"))
+dec = int(input("Enter a Decimal Number\n"))
 
 print(bin(dec)," is the Binary Equivalent of ",dec)
 print(oct(dec)," is the Octal Equivalent of ",dec)
