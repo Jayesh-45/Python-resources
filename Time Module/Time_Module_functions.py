@@ -17,3 +17,7 @@ while(k<10):
     time.sleep(1)
     k = k + 1
 print("The execution time was", time.time() - initial2, "Seconds.")
+
+print("This is first print statement.")
+time.sleep(6)
+print("This is printed after 6 seconds.")
