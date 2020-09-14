@@ -19,6 +19,10 @@
 ----
 > ## time.sleep() Function
 
-       time.sleep(1)
+         time.sleep(1)
                 
 - The sleep() function delays execution of the current task for the given number of seconds in the parentheses brackets.
+
+        print("This is first print statement.")
+        time.sleep(6)
+        print("This is printed after 6 seconds.")
