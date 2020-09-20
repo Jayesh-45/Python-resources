@@ -1,4 +1,5 @@
 import time
+import calendar 
 # This is the function that checks and displays the local time.
 
 local_time = time.asctime(time.localtime(time.time()))
@@ -21,3 +22,9 @@ print("The execution time was", time.time() - initial2, "Seconds.")
 print("This is first print statement.")
 time.sleep(6)
 print("This is printed after 6 seconds.")
+
+
+# Getting calendar for a month
+cal = calendar.month(2020, 3)
+print("Here is the calendar:")
+print(cal)
