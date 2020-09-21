@@ -1,4 +1,4 @@
-> # This Readme Contains all the explainations for the functions in the Time module.
+> # This Readme Contains all the explainations for the functions in the Time module and Calendar module.
 
 - First we import the time module for the inbuilt python libraries.
 
@@ -26,3 +26,16 @@
         print("This is first print statement.")
         time.sleep(6)
         print("This is printed after 6 seconds.")
+----
+> ## Prinitng a Calendar for a perticular month.
+
+- First you have to import the calendar module.
+
+        import calendar
+        
+- Then the calendar.month(year_, month_) helps in printing the calendar for a perticular month.
+- This is a example, for printing the calendar for March, 2020.
+
+        cal = calendar.month(2020, 3)
+        print("Here is the calendar:")
+        print(cal)
