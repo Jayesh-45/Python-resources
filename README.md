@@ -1,6 +1,6 @@
 # Python-resources
 
-This is an Online Python resource material repository for beginners.
+This is an Online Python resources material repository for beginners.
 
 I am a budding programmer.
 I create these little programs as experiments to play with Python, or to solve problems for myself. 
