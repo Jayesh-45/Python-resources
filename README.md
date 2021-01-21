@@ -1,5 +1,5 @@
 # Python-resources
-This is an Online Python resources material repository for beginners.
+
 This is a Online Python resource Source code material repository for beginners.
 
 
